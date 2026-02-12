@@ -12,7 +12,10 @@ return {
     explorer = { enabled = true, hidden = true, ignored = true },
     indent = { enabled = true },
     input = { enabled = true },
-    picker = { enabled = true },
+    picker = {
+      enabled = true,
+      --      ui_select = false, -- <— add this
+    },
     notifier = { enabled = true },
     quickfile = { enabled = true },
     scope = { enabled = true },
